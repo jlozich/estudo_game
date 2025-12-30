@@ -1,3308 +1,1196 @@
 window.QUESTOES = {
   "facil": [
     {
-      "pergunta": "Questão 1 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 1 nível facil: O que determina o princípio da legalidade tributária?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que tributo só pode ser instituído ou majorado por lei (CF/88, art. 150, I).",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 2 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 3 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 4 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 5 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 6 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 7 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 8 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 9 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 10 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 11 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 12 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 13 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 14 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 15 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 16 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 17 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 18 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 19 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 20 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 21 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 22 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 23 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 24 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 25 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 26 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 27 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 28 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 29 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 30 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 31 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 32 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 33 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 34 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 35 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 36 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 37 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 38 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 39 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 40 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 41 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 42 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 43 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 44 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 45 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 46 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 47 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 48 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 49 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 50 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 51 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 52 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 53 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 54 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 55 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 56 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 57 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 58 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 59 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 60 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 61 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 62 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 63 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 64 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 65 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 66 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 67 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 68 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 69 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 70 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 71 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 72 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 73 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 74 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 75 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 76 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 77 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 78 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 79 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 80 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 81 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 82 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 83 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 84 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 85 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 86 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 87 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 88 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 89 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 90 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que tributo só pode ser instituído ou majorado por lei (CF/88, art. 150, I)."
     },
     {
-      "pergunta": "Questão 91 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 2 nível facil: Qual dispositivo constitucional geral reforça a legalidade ao dizer que ninguém é obrigado a fazer ou deixar de fazer algo senão em virtude de lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "CF/88, art. 5º, II.",
+        "CF/88, art. 37.",
+        "CF/88, art. 150, IV.",
+        "CF/88, art. 170."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "CF/88, art. 5º, II."
     },
     {
-      "pergunta": "Questão 92 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 3 nível facil: Como também é chamado o princípio da legalidade no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Princípio da reserva legal."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 93 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 94 nível fácil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Princípio da reserva legal."
     },
     {
-      "pergunta": "Questão 95 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 4 nível facil: O que o art. 97 do CTN ressalta sobre instituição/extinção e majoração/redução de tributos?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que somente a lei pode instituir ou extinguir tributos e majorá-los ou reduzi-los, além de definir elementos essenciais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Que somente a lei pode instituir ou extinguir tributos e majorá-los ou reduzi-los, além de definir elementos essenciais."
     },
     {
-      "pergunta": "Questão 96 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 5 nível facil: O que dispõe a Súmula Vinculante 50 do STF, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que norma legal que altera o prazo de recolhimento de obrigação tributária não se sujeita ao princípio da anterioridade.",
+        "Que qualquer alteração de prazo deve observar anualidade.",
+        "Que prazo de recolhimento é elemento essencial do tributo e sempre exige noventena.",
+        "Que prazo de recolhimento só pode ser alterado por lei complementar."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Que norma legal que altera o prazo de recolhimento de obrigação tributária não se sujeita ao princípio da anterioridade."
     },
     {
-      "pergunta": "Questão 97 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 6 nível facil: O que significa “noventena” no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Anterioridade nonagesimal: prazo de 90 dias (e não “3 meses”).",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Anterioridade nonagesimal: prazo de 90 dias (e não “3 meses”)."
     },
     {
-      "pergunta": "Questão 98 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 7 nível facil: O que veda o princípio da vedação às isenções heterônomas?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que Estados podem criar isenção de impostos federais por convênio.",
+        "Que a União institua isenções sobre tributos de competência de outros entes federados (CF/88, art. 151, III).",
+        "Que a União pode isentar tributos locais por decreto para estimular exportações.",
+        "Que o Município pode isentar imposto estadual por lei orgânica."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Que a União institua isenções sobre tributos de competência de outros entes federados (CF/88, art. 151, III)."
     },
     {
-      "pergunta": "Questão 99 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 8 nível facil: Como o material descreve a vedação ao confisco?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Proíbe tributação excessivamente onerosa, insuportável, não razoável, que absorva a própria fonte da tributação.",
+        "Autoriza o tributo a absorver a fonte econômica do contribuinte.",
+        "Veda apenas multas, mas nunca tributos.",
+        "Exige que todo tributo tenha finalidade exclusivamente extrafiscal."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Proíbe tributação excessivamente onerosa, insuportável, não razoável, que absorva a própria fonte da tributação."
     },
     {
-      "pergunta": "Questão 100 nível fácil: exemplo de pergunta?",
+      "pergunta": "Questão 9 nível facil: O que diz o princípio da irretroatividade tributária, conforme questões comentadas?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Veda apenas a cobrança no mesmo exercício, sem relação com fatos passados.",
+        "Veda cobrar tributos sobre fatos geradores ocorridos antes do início da vigência da lei que os instituiu ou aumentou (art. 150, III, 'a').",
+        "Autoriza retroatividade para tributos extrafiscais.",
+        "Permite cobrança retroativa desde que publicada até 31/12."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Veda cobrar tributos sobre fatos geradores ocorridos antes do início da vigência da lei que os instituiu ou aumentou (art. 150, III, 'a')."
     }
   ],
   "medio": [
     {
-      "pergunta": "Questão 1 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 1 nível medio: Por que o material diz que tributo deve ser instituído por lei também a partir do CTN?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 2 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 3 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 4 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 5 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 6 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 7 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 8 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 9 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 10 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 11 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 12 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 13 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 14 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 15 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 16 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 17 nível médio: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência."
     },
     {
-      "pergunta": "Questão 18 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 2 nível medio: Qual consequência decorre do entendimento do material sobre: Por que o material diz que tributo deve ser instituído por lei também a partir do CTN?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência."
     },
     {
-      "pergunta": "Questão 19 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 3 nível medio: Em prova, a pegadinha clássica relacionada a por é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência.",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência."
     },
     {
-      "pergunta": "Questão 20 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 4 nível medio: Qual alternativa está de acordo com o PDF quanto a: Por que o material diz que tributo deve ser instituído por lei também a partir do CTN?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência."
     },
     {
-      "pergunta": "Questão 21 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 5 nível medio: Considere o enunciado e assinale o correto: Por que o material diz que tributo deve ser instituído por lei também a partir do CTN.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Porque o tributo é prestação pecuniária compulsória (obrigação) e o conceito do art. 3º do CTN reforça essa exigência."
     },
     {
-      "pergunta": "Questão 22 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 6 nível medio: Segundo o texto, multas tributárias precisam ser criadas por lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
     },
     {
-      "pergunta": "Questão 23 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 7 nível medio: Qual consequência decorre do entendimento do material sobre: Segundo o texto, multas tributárias precisam ser criadas por lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
     },
     {
-      "pergunta": "Questão 24 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 8 nível medio: Em prova, a pegadinha clássica relacionada a segundo é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
     },
     {
-      "pergunta": "Questão 25 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 9 nível medio: Qual alternativa está de acordo com o PDF quanto a: Segundo o texto, multas tributárias precisam ser criadas por lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
     },
     {
-      "pergunta": "Questão 26 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 10 nível medio: Considere o enunciado e assinale o correto: Segundo o texto, multas tributárias precisam ser criadas por lei.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Sim. Embora multa não seja tributo, é prestação obrigatória, então deve ser instituída em lei."
     },
     {
-      "pergunta": "Questão 27 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 11 nível medio: Segundo o art. 97 do CTN, quais elementos essenciais do tributo exigem lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Somente o número de parcelas e a forma de fiscalização.",
+        "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97).",
+        "Apenas a atualização monetária e os prazos de recolhimento.",
+        "Apenas o sujeito ativo e o local do pagamento."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
     },
     {
-      "pergunta": "Questão 28 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 12 nível medio: Qual consequência decorre do entendimento do material sobre: Segundo o art. 97 do CTN, quais elementos essenciais do tributo exigem lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Apenas a atualização monetária e os prazos de recolhimento.",
+        "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97).",
+        "Somente o número de parcelas e a forma de fiscalização.",
+        "Apenas o sujeito ativo e o local do pagamento."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
     },
     {
-      "pergunta": "Questão 29 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 13 nível medio: Em prova, a pegadinha clássica relacionada a segundo é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Apenas o sujeito ativo e o local do pagamento.",
+        "Somente o número de parcelas e a forma de fiscalização.",
+        "Apenas a atualização monetária e os prazos de recolhimento.",
+        "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
     },
     {
-      "pergunta": "Questão 30 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 14 nível medio: Qual alternativa está de acordo com o PDF quanto a: Segundo o art. 97 do CTN, quais elementos essenciais do tributo exigem lei?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Apenas o sujeito ativo e o local do pagamento.",
+        "Somente o número de parcelas e a forma de fiscalização.",
+        "Apenas a atualização monetária e os prazos de recolhimento.",
+        "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
     },
     {
-      "pergunta": "Questão 31 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 15 nível medio: Considere o enunciado e assinale o correto: Segundo o art. 97 do CTN, quais elementos essenciais do tributo exigem lei.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Apenas a atualização monetária e os prazos de recolhimento.",
+        "Somente o número de parcelas e a forma de fiscalização.",
+        "Apenas o sujeito ativo e o local do pagamento.",
+        "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Fato gerador e sujeito passivo; alíquota e base de cálculo; e a cominação de penalidades (entre outros itens do art. 97)."
     },
     {
-      "pergunta": "Questão 32 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 16 nível medio: Qual é a finalidade central das anterioridades (anual e nonagesimal) no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica).",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica)."
     },
     {
-      "pergunta": "Questão 33 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 17 nível medio: Qual consequência decorre do entendimento do material sobre: Qual é a finalidade central das anterioridades (anual e nonagesimal) no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica).",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica)."
     },
     {
-      "pergunta": "Questão 34 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 18 nível medio: Em prova, a pegadinha clássica relacionada a qual é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica).",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica)."
     },
     {
-      "pergunta": "Questão 35 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 19 nível medio: Qual alternativa está de acordo com o PDF quanto a: Qual é a finalidade central das anterioridades (anual e nonagesimal) no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica).",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica)."
     },
     {
-      "pergunta": "Questão 36 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 20 nível medio: Considere o enunciado e assinale o correto: Qual é a finalidade central das anterioridades (anual e nonagesimal) no material.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica).",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Proteger o contribuinte contra “surpresas” decorrentes de alterações legislativas que possam prejudicá-lo (não surpresa/segurança jurídica)."
     },
     {
-      "pergunta": "Questão 37 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 21 nível medio: Redução ou extinção de tributo precisa aguardar anterioridade/noventena para produzir efeitos?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
     },
     {
-      "pergunta": "Questão 38 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 22 nível medio: Qual consequência decorre do entendimento do material sobre: Redução ou extinção de tributo precisa aguardar anterioridade/noventena para produzir efeitos?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
     },
     {
-      "pergunta": "Questão 39 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 23 nível medio: Em prova, a pegadinha clássica relacionada a redução é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
     },
     {
-      "pergunta": "Questão 40 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 24 nível medio: Qual alternativa está de acordo com o PDF quanto a: Redução ou extinção de tributo precisa aguardar anterioridade/noventena para produzir efeitos?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
     },
     {
-      "pergunta": "Questão 41 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 25 nível medio: Considere o enunciado e assinale o correto: Redução ou extinção de tributo precisa aguardar anterioridade/noventena para produzir efeitos.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Não. Alterações favoráveis ao contribuinte (redução/extinção) produzem efeitos imediatamente, segundo o material."
     },
     {
-      "pergunta": "Questão 42 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 26 nível medio: Qual súmula do STF tem a mesma redação da SV 50, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Súmula 70.",
+        "A Súmula 669 do STF.",
+        "Súmula 656.",
+        "Súmula 323."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "A Súmula 669 do STF."
     },
     {
-      "pergunta": "Questão 43 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 27 nível medio: Qual consequência decorre do entendimento do material sobre: Qual súmula do STF tem a mesma redação da SV 50, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Súmula 656.",
+        "Súmula 70.",
+        "Súmula 323.",
+        "A Súmula 669 do STF."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "A Súmula 669 do STF."
     },
     {
-      "pergunta": "Questão 44 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 28 nível medio: Em prova, a pegadinha clássica relacionada a qual é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Súmula 323.",
+        "Súmula 656.",
+        "Súmula 70.",
+        "A Súmula 669 do STF."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "A Súmula 669 do STF."
     },
     {
-      "pergunta": "Questão 45 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 29 nível medio: Qual alternativa está de acordo com o PDF quanto a: Qual súmula do STF tem a mesma redação da SV 50, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Súmula 323.",
+        "Súmula 70.",
+        "Súmula 656.",
+        "A Súmula 669 do STF."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "A Súmula 669 do STF."
     },
     {
-      "pergunta": "Questão 46 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 30 nível medio: Considere o enunciado e assinale o correto: Qual súmula do STF tem a mesma redação da SV 50, segundo o PDF.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Súmula 70.",
+        "Súmula 323.",
+        "Súmula 656.",
+        "A Súmula 669 do STF."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "A Súmula 669 do STF."
     },
     {
-      "pergunta": "Questão 47 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 31 nível medio: Conforme citado no material, antecipar o prazo de recolhimento prejudica o contribuinte a ponto de exigir anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Depende: se for taxa, exige; se for imposto, não exige.",
+        "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC).",
+        "Sim, quando a antecipação ocorrer dentro do mesmo exercício.",
+        "Sim, sempre; toda antecipação exige anterioridade anual."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC)."
     },
     {
-      "pergunta": "Questão 48 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 32 nível medio: Qual consequência decorre do entendimento do material sobre: Conforme citado no material, antecipar o prazo de recolhimento prejudica o contribuinte a ponto de exigir anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC).",
+        "Sim, quando a antecipação ocorrer dentro do mesmo exercício.",
+        "Depende: se for taxa, exige; se for imposto, não exige.",
+        "Sim, sempre; toda antecipação exige anterioridade anual."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC)."
     },
     {
-      "pergunta": "Questão 49 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 33 nível medio: Em prova, a pegadinha clássica relacionada a conforme é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Depende: se for taxa, exige; se for imposto, não exige.",
+        "Sim, sempre; toda antecipação exige anterioridade anual.",
+        "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC).",
+        "Sim, quando a antecipação ocorrer dentro do mesmo exercício."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC)."
     },
     {
-      "pergunta": "Questão 50 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 34 nível medio: Qual alternativa está de acordo com o PDF quanto a: Conforme citado no material, antecipar o prazo de recolhimento prejudica o contribuinte a ponto de exigir anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC).",
+        "Depende: se for taxa, exige; se for imposto, não exige.",
+        "Sim, quando a antecipação ocorrer dentro do mesmo exercício.",
+        "Sim, sempre; toda antecipação exige anterioridade anual."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC)."
     },
     {
-      "pergunta": "Questão 51 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 35 nível medio: Considere o enunciado e assinale o correto: Conforme citado no material, antecipar o prazo de recolhimento prejudica o contribuinte a ponto de exigir anterioridade.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC).",
+        "Sim, quando a antecipação ocorrer dentro do mesmo exercício.",
+        "Sim, sempre; toda antecipação exige anterioridade anual.",
+        "Depende: se for taxa, exige; se for imposto, não exige."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Não. O STF entendeu que a alteração do prazo não se sujeita à anterioridade, mesmo com antecipação (RE-AgR 274.949/SC)."
     },
     {
-      "pergunta": "Questão 52 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 36 nível medio: Atualização do valor monetário do tributo é considerada majoração para fins de anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Sim; atualização monetária é sempre aumento e exige noventena.",
+        "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR).",
+        "Sim; atualização monetária exige lei e anterioridade anual.",
+        "Depende: se for índice oficial, é aumento; se não for, não."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR)."
     },
     {
-      "pergunta": "Questão 53 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 37 nível medio: Qual consequência decorre do entendimento do material sobre: Atualização do valor monetário do tributo é considerada majoração para fins de anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Depende: se for índice oficial, é aumento; se não for, não.",
+        "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR).",
+        "Sim; atualização monetária exige lei e anterioridade anual.",
+        "Sim; atualização monetária é sempre aumento e exige noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR)."
     },
     {
-      "pergunta": "Questão 54 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 38 nível medio: Em prova, a pegadinha clássica relacionada a atualização é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Depende: se for índice oficial, é aumento; se não for, não.",
+        "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR).",
+        "Sim; atualização monetária exige lei e anterioridade anual.",
+        "Sim; atualização monetária é sempre aumento e exige noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR)."
     },
     {
-      "pergunta": "Questão 55 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 39 nível medio: Qual alternativa está de acordo com o PDF quanto a: Atualização do valor monetário do tributo é considerada majoração para fins de anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Sim; atualização monetária exige lei e anterioridade anual.",
+        "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR).",
+        "Depende: se for índice oficial, é aumento; se não for, não.",
+        "Sim; atualização monetária é sempre aumento e exige noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR)."
     },
     {
-      "pergunta": "Questão 56 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 40 nível medio: Considere o enunciado e assinale o correto: Atualização do valor monetário do tributo é considerada majoração para fins de anterioridade.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Sim; atualização monetária exige lei e anterioridade anual.",
+        "Depende: se for índice oficial, é aumento; se não for, não.",
+        "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR).",
+        "Sim; atualização monetária é sempre aumento e exige noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Não. O STF entendeu que atualização monetária não constitui majoração e não precisa observar anterioridade (RE-AgR 200.844/PR)."
     },
     {
-      "pergunta": "Questão 57 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 41 nível medio: O material ressalta que alterar prazo de recolhimento e atualização monetária são exceções a qual princípio, além da anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Também são exceções ao princípio da legalidade, segundo a observação do PDF.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Também são exceções ao princípio da legalidade, segundo a observação do PDF."
     },
     {
-      "pergunta": "Questão 58 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 42 nível medio: Qual consequência decorre do entendimento do material sobre: O material ressalta que alterar prazo de recolhimento e atualização monetária são exceções a qual princípio, além da anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Também são exceções ao princípio da legalidade, segundo a observação do PDF.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Também são exceções ao princípio da legalidade, segundo a observação do PDF."
     },
     {
-      "pergunta": "Questão 59 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 43 nível medio: Em prova, a pegadinha clássica relacionada a o é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Também são exceções ao princípio da legalidade, segundo a observação do PDF."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Também são exceções ao princípio da legalidade, segundo a observação do PDF."
     },
     {
-      "pergunta": "Questão 60 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 44 nível medio: Qual alternativa está de acordo com o PDF quanto a: O material ressalta que alterar prazo de recolhimento e atualização monetária são exceções a qual princípio, além da anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Também são exceções ao princípio da legalidade, segundo a observação do PDF.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Também são exceções ao princípio da legalidade, segundo a observação do PDF."
     },
     {
-      "pergunta": "Questão 61 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 45 nível medio: Considere o enunciado e assinale o correto: O material ressalta que alterar prazo de recolhimento e atualização monetária são exceções a qual princípio, além da anterioridade.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Também são exceções ao princípio da legalidade, segundo a observação do PDF.",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Também são exceções ao princípio da legalidade, segundo a observação do PDF."
     },
     {
-      "pergunta": "Questão 62 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 46 nível medio: Qual era o entendimento citado do STF (1996) sobre revogação de isenção e anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES)."
     },
     {
-      "pergunta": "Questão 63 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 47 nível medio: Qual consequência decorre do entendimento do material sobre: Qual era o entendimento citado do STF (1996) sobre revogação de isenção e anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES).",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES)."
     },
     {
-      "pergunta": "Questão 64 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 48 nível medio: Em prova, a pegadinha clássica relacionada a qual é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES).",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES)."
     },
     {
-      "pergunta": "Questão 65 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 49 nível medio: Qual alternativa está de acordo com o PDF quanto a: Qual era o entendimento citado do STF (1996) sobre revogação de isenção e anterioridade?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES).",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES)."
     },
     {
-      "pergunta": "Questão 66 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 50 nível medio: Considere o enunciado e assinale o correto: Qual era o entendimento citado do STF (1996) sobre revogação de isenção e anterioridade.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES).",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que revogada a isenção, o tributo torna-se imediatamente exigível, sem necessidade de observar anterioridade (RE 204.062/ES)."
     },
     {
-      "pergunta": "Questão 67 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 51 nível medio: Entre II, IE, IOF e IPI, qual deles o material destaca como NÃO sendo exceção à noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena.",
+        "IOF (Operações Financeiras).",
+        "IE (Exportação).",
+        "II (Importação)."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
     },
     {
-      "pergunta": "Questão 68 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 52 nível medio: Qual consequência decorre do entendimento do material sobre: Entre II, IE, IOF e IPI, qual deles o material destaca como NÃO sendo exceção à noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena.",
+        "IOF (Operações Financeiras).",
+        "IE (Exportação).",
+        "II (Importação)."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
     },
     {
-      "pergunta": "Questão 69 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 53 nível medio: Em prova, a pegadinha clássica relacionada a entre é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "IE (Exportação).",
+        "II (Importação).",
+        "IOF (Operações Financeiras).",
+        "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
     },
     {
-      "pergunta": "Questão 70 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 54 nível medio: Qual alternativa está de acordo com o PDF quanto a: Entre II, IE, IOF e IPI, qual deles o material destaca como NÃO sendo exceção à noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "IOF (Operações Financeiras).",
+        "IE (Exportação).",
+        "II (Importação).",
+        "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
     },
     {
-      "pergunta": "Questão 71 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 55 nível medio: Considere o enunciado e assinale o correto: Entre II, IE, IOF e IPI, qual deles o material destaca como NÃO sendo exceção à noventena.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "II (Importação).",
+        "IOF (Operações Financeiras).",
+        "IE (Exportação).",
+        "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "O IPI: dos impostos extrafiscais, apenas o IPI está sujeito à noventena."
     },
     {
-      "pergunta": "Questão 72 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 56 nível medio: Como o material descreve a relação do Imposto de Renda com a noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "O IR se sujeita apenas à anterioridade anual (não à noventena).",
+        "IR é exceção a ambas as anterioridades.",
+        "IR se sujeita a anualidade e noventena sempre.",
+        "IR se sujeita apenas à noventena."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "O IR se sujeita apenas à anterioridade anual (não à noventena)."
     },
     {
-      "pergunta": "Questão 73 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 57 nível medio: Qual consequência decorre do entendimento do material sobre: Como o material descreve a relação do Imposto de Renda com a noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "IR se sujeita apenas à noventena.",
+        "IR é exceção a ambas as anterioridades.",
+        "O IR se sujeita apenas à anterioridade anual (não à noventena).",
+        "IR se sujeita a anualidade e noventena sempre."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "O IR se sujeita apenas à anterioridade anual (não à noventena)."
     },
     {
-      "pergunta": "Questão 74 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 58 nível medio: Em prova, a pegadinha clássica relacionada a como é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "O IR se sujeita apenas à anterioridade anual (não à noventena).",
+        "IR se sujeita a anualidade e noventena sempre.",
+        "IR se sujeita apenas à noventena.",
+        "IR é exceção a ambas as anterioridades."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "O IR se sujeita apenas à anterioridade anual (não à noventena)."
     },
     {
-      "pergunta": "Questão 75 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 59 nível medio: Qual alternativa está de acordo com o PDF quanto a: Como o material descreve a relação do Imposto de Renda com a noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "O IR se sujeita apenas à anterioridade anual (não à noventena).",
+        "IR se sujeita a anualidade e noventena sempre.",
+        "IR se sujeita apenas à noventena.",
+        "IR é exceção a ambas as anterioridades."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "O IR se sujeita apenas à anterioridade anual (não à noventena)."
     },
     {
-      "pergunta": "Questão 76 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 60 nível medio: Considere o enunciado e assinale o correto: Como o material descreve a relação do Imposto de Renda com a noventena.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "IR se sujeita apenas à noventena.",
+        "IR é exceção a ambas as anterioridades.",
+        "O IR se sujeita apenas à anterioridade anual (não à noventena).",
+        "IR se sujeita a anualidade e noventena sempre."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "O IR se sujeita apenas à anterioridade anual (não à noventena)."
     },
     {
-      "pergunta": "Questão 77 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 61 nível medio: Como o material destaca a relação do IPI com as anterioridades?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas).",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
     },
     {
-      "pergunta": "Questão 78 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 62 nível medio: Qual consequência decorre do entendimento do material sobre: Como o material destaca a relação do IPI com as anterioridades?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas).",
+        "Que a regra vale apenas para taxas, não para impostos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
     },
     {
-      "pergunta": "Questão 79 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 63 nível medio: Em prova, a pegadinha clássica relacionada a como é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
     },
     {
-      "pergunta": "Questão 80 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 64 nível medio: Qual alternativa está de acordo com o PDF quanto a: Como o material destaca a relação do IPI com as anterioridades?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
     },
     {
-      "pergunta": "Questão 81 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 65 nível medio: Considere o enunciado e assinale o correto: Como o material destaca a relação do IPI com as anterioridades.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "O IPI é sujeito à noventena; e, em geral, aparece como exceção à anterioridade anual (ponto recorrente em provas)."
     },
     {
-      "pergunta": "Questão 82 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 66 nível medio: Quais tributos ligados a urgência (guerra/calamidade) são exceções à noventena, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade).",
+        "Que a regra vale apenas para tributos estaduais e municipais."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
     },
     {
-      "pergunta": "Questão 83 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 67 nível medio: Qual consequência decorre do entendimento do material sobre: Quais tributos ligados a urgência (guerra/calamidade) são exceções à noventena, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
     },
     {
-      "pergunta": "Questão 84 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 68 nível medio: Em prova, a pegadinha clássica relacionada a quais é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
     },
     {
-      "pergunta": "Questão 85 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 69 nível medio: Qual alternativa está de acordo com o PDF quanto a: Quais tributos ligados a urgência (guerra/calamidade) são exceções à noventena, segundo o PDF?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade).",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
     },
     {
-      "pergunta": "Questão 86 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 70 nível medio: Considere o enunciado e assinale o correto: Quais tributos ligados a urgência (guerra/calamidade) são exceções à noventena, segundo o PDF.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade).",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Impostos Extraordinários de Guerra e Empréstimos Compulsórios (somente para guerra e calamidade)."
     },
     {
-      "pergunta": "Questão 87 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 71 nível medio: Qual exceção à noventena envolve IPTU e IPVA no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Criação de taxa de coleta de lixo municipal.",
+        "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena.",
+        "Aumento de alíquota do IPTU e do IPVA.",
+        "Instituição de contribuição de melhoria."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena."
     },
     {
-      "pergunta": "Questão 88 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 72 nível medio: Qual consequência decorre do entendimento do material sobre: Qual exceção à noventena envolve IPTU e IPVA no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Instituição de contribuição de melhoria.",
+        "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena.",
+        "Aumento de alíquota do IPTU e do IPVA.",
+        "Criação de taxa de coleta de lixo municipal."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena."
     },
     {
-      "pergunta": "Questão 89 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 73 nível medio: Em prova, a pegadinha clássica relacionada a qual é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Aumento de alíquota do IPTU e do IPVA.",
+        "Criação de taxa de coleta de lixo municipal.",
+        "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena.",
+        "Instituição de contribuição de melhoria."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena."
     },
     {
-      "pergunta": "Questão 90 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 74 nível medio: Qual alternativa está de acordo com o PDF quanto a: Qual exceção à noventena envolve IPTU e IPVA no material?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Instituição de contribuição de melhoria.",
+        "Criação de taxa de coleta de lixo municipal.",
+        "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena.",
+        "Aumento de alíquota do IPTU e do IPVA."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena."
     },
     {
-      "pergunta": "Questão 91 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 75 nível medio: Considere o enunciado e assinale o correto: Qual exceção à noventena envolve IPTU e IPVA no material.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Instituição de contribuição de melhoria.",
+        "Aumento de alíquota do IPTU e do IPVA.",
+        "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena.",
+        "Criação de taxa de coleta de lixo municipal."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Somente a fixação/alteração da base de cálculo do IPTU e do IPVA é exceção à noventena."
     },
     {
-      "pergunta": "Questão 92 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 76 nível medio: Segundo o PDF, por que a base de cálculo de IPTU/IPVA foi excepcionada da noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
     },
     {
-      "pergunta": "Questão 93 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 77 nível medio: Qual consequência decorre do entendimento do material sobre: Segundo o PDF, por que a base de cálculo de IPTU/IPVA foi excepcionada da noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos.",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
     },
     {
-      "pergunta": "Questão 94 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 78 nível medio: Em prova, a pegadinha clássica relacionada a segundo é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
     },
     {
-      "pergunta": "Questão 95 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 79 nível medio: Qual alternativa está de acordo com o PDF quanto a: Segundo o PDF, por que a base de cálculo de IPTU/IPVA foi excepcionada da noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Que a regra é mera recomendação sem base constitucional."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
     },
     {
-      "pergunta": "Questão 96 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 80 nível medio: Considere o enunciado e assinale o correto: Segundo o PDF, por que a base de cálculo de IPTU/IPVA foi excepcionada da noventena.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra é mera recomendação sem base constitucional.",
+        "Que a regra vale apenas para taxas, não para impostos.",
+        "Que a regra vale apenas para tributos estaduais e municipais.",
+        "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Para permitir revisões com precisão dos valores de imóveis e veículos; esperar 90 dias dificultaria ajustes tempestivos."
     },
     {
-      "pergunta": "Questão 97 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 81 nível medio: Quais tributos o PDF manda memorizar como exceções simultâneas à anterioridade e à noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "ICMS, ISS, IR e IPI.",
+        "ISS, IPTU, ITCMD e IPVA.",
+        "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade.",
+        "IR, IPI, IPTU e IPVA."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade."
     },
     {
-      "pergunta": "Questão 98 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 82 nível medio: Qual consequência decorre do entendimento do material sobre: Quais tributos o PDF manda memorizar como exceções simultâneas à anterioridade e à noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "ISS, IPTU, ITCMD e IPVA.",
+        "ICMS, ISS, IR e IPI.",
+        "IR, IPI, IPTU e IPVA.",
+        "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade."
     },
     {
-      "pergunta": "Questão 99 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 83 nível medio: Em prova, a pegadinha clássica relacionada a quais é:",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "ICMS, ISS, IR e IPI.",
+        "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade.",
+        "IR, IPI, IPTU e IPVA.",
+        "ISS, IPTU, ITCMD e IPVA."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade."
     },
     {
-      "pergunta": "Questão 100 nível médio: exemplo de pergunta?",
+      "pergunta": "Questão 84 nível medio: Qual alternativa está de acordo com o PDF quanto a: Quais tributos o PDF manda memorizar como exceções simultâneas à anterioridade e à noventena?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "ISS, IPTU, ITCMD e IPVA.",
+        "ICMS, ISS, IR e IPI.",
+        "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade.",
+        "IR, IPI, IPTU e IPVA."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "II, IE, IOF, IEG e Empréstimos Compulsórios de guerra ou calamidade."
     }
   ],
   "dificil": [
     {
-      "pergunta": "Questão 1 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 1 nível dificil: Qual entendimento do STF citado no PDF reforça a reserva legal em relação a emolumentos cartorários?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "STF decidiu que emolumentos não têm natureza tributária.",
+        "STF entendeu que emolumentos cartorários são preços públicos e dispensam lei.",
+        "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709).",
+        "STF afirmou que emolumentos podem ser fixados por resolução administrativa."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 2 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 3 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 4 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 5 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 6 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 7 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 8 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 9 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 10 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 11 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 12 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 13 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 14 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 15 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 16 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 17 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 18 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 19 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 20 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 21 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 22 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 23 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 24 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 25 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 26 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 27 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 28 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 29 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 30 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 31 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 32 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 33 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 34 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 35 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 36 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 37 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 38 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 39 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 40 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 41 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 42 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 43 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 44 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 45 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 46 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 47 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 48 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 49 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 50 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 51 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 52 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 53 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 54 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 55 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 56 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 57 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 58 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 59 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 60 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 61 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 62 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 63 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 64 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 65 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 66 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 67 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 68 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 69 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 70 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 71 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 72 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 73 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 74 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 75 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 76 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 77 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 78 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 79 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 80 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 81 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 82 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 83 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 84 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 85 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
-    },
-    {
-      "pergunta": "Questão 86 nível difícil: exemplo de pergunta?",
-      "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
-      ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709)."
     },
     {
-      "pergunta": "Questão 87 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 2 nível dificil: Segundo jurisprudência mencionada no PDF, qual afirmativa é correta sobre: Qual entendimento do STF citado no PDF reforça a reserva legal em relação a emolumentos cartorários?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "STF afirmou que emolumentos podem ser fixados por resolução administrativa.",
+        "STF decidiu que emolumentos não têm natureza tributária.",
+        "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709).",
+        "STF entendeu que emolumentos cartorários são preços públicos e dispensam lei."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709)."
     },
     {
-      "pergunta": "Questão 88 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 3 nível dificil: Qual item reflete o entendimento citado (STF/EC) a respeito de: Qual entendimento do STF citado no PDF reforça a reserva legal em relação a emolumentos cartorários?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "STF entendeu que emolumentos cartorários são preços públicos e dispensam lei.",
+        "STF afirmou que emolumentos podem ser fixados por resolução administrativa.",
+        "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709).",
+        "STF decidiu que emolumentos não têm natureza tributária."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709)."
     },
     {
-      "pergunta": "Questão 89 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 4 nível dificil: Em uma questão de alto nível, assinale a opção correta sobre: Qual entendimento do STF citado no PDF reforça a reserva legal em relação a emolumentos cartorários.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "STF decidiu que emolumentos não têm natureza tributária.",
+        "STF afirmou que emolumentos podem ser fixados por resolução administrativa.",
+        "STF entendeu que emolumentos cartorários são preços públicos e dispensam lei.",
+        "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709)."
     },
     {
-      "pergunta": "Questão 90 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 5 nível dificil: De acordo com o material, marque a alternativa correta: Qual entendimento do STF citado no PDF reforça a reserva legal em relação a emolumentos cartorários.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "STF entendeu que emolumentos cartorários são preços públicos e dispensam lei.",
+        "STF afirmou que emolumentos podem ser fixados por resolução administrativa.",
+        "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709).",
+        "STF decidiu que emolumentos não têm natureza tributária."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que a instituição de emolumentos cartorários pelo Tribunal de Justiça afronta o princípio da reserva legal (STF, ADI 1.709)."
     },
     {
-      "pergunta": "Questão 91 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 6 nível dificil: Qual entendimento mais recente citado no PDF sobre revogação de benefício fiscal que aumenta indiretamente o ICMS?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que apenas a anual deve ser observada, nunca a nonagesimal.",
+        "Que a revogação de benefício fiscal nunca altera carga e é sempre imediata.",
+        "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c').",
+        "Que a anterioridade só se aplica à criação de tributos, não a aumentos indiretos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
     },
     {
-      "pergunta": "Questão 92 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 7 nível dificil: Segundo jurisprudência mencionada no PDF, qual afirmativa é correta sobre: Qual entendimento mais recente citado no PDF sobre revogação de benefício fiscal que aumenta indiretamente o ICMS?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que apenas a anual deve ser observada, nunca a nonagesimal.",
+        "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c').",
+        "Que a revogação de benefício fiscal nunca altera carga e é sempre imediata.",
+        "Que a anterioridade só se aplica à criação de tributos, não a aumentos indiretos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
     },
     {
-      "pergunta": "Questão 93 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 8 nível dificil: Qual item reflete o entendimento citado (STF/EC) a respeito de: Qual entendimento mais recente citado no PDF sobre revogação de benefício fiscal que aumenta indiretamente o ICMS?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a revogação de benefício fiscal nunca altera carga e é sempre imediata.",
+        "Que apenas a anual deve ser observada, nunca a nonagesimal.",
+        "Que a anterioridade só se aplica à criação de tributos, não a aumentos indiretos.",
+        "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
     },
     {
-      "pergunta": "Questão 94 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 9 nível dificil: Em uma questão de alto nível, assinale a opção correta sobre: Qual entendimento mais recente citado no PDF sobre revogação de benefício fiscal que aumenta indiretamente o ICMS.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c').",
+        "Que apenas a anual deve ser observada, nunca a nonagesimal.",
+        "Que a anterioridade só se aplica à criação de tributos, não a aumentos indiretos.",
+        "Que a revogação de benefício fiscal nunca altera carga e é sempre imediata."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
     },
     {
-      "pergunta": "Questão 95 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 10 nível dificil: De acordo com o material, marque a alternativa correta: Qual entendimento mais recente citado no PDF sobre revogação de benefício fiscal que aumenta indiretamente o ICMS.",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que apenas a anual deve ser observada, nunca a nonagesimal.",
+        "Que a anterioridade só se aplica à criação de tributos, não a aumentos indiretos.",
+        "Que a revogação de benefício fiscal nunca altera carga e é sempre imediata.",
+        "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Que havendo aumento indireto por revogação de benefício fiscal, deve-se observar anterioridade geral e nonagesimal (art. 150, III, 'b' e 'c')."
     },
     {
-      "pergunta": "Questão 96 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 11 nível dificil: Segundo o PDF, quais limitações já foram consideradas pelo STF como cláusulas pétreas (exemplos)?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que a regra se aplica apenas a benefícios fiscais, não a tributos.",
+        "Que o entendimento é o oposto: dispensa lei e permite ato infralegal em regra.",
+        "Que o STF consolidou o contrário em súmula vinculante específica.",
+        "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel)."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 3,
+      "explicacao": "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel)."
     },
     {
-      "pergunta": "Questão 97 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 12 nível dificil: Segundo jurisprudência mencionada no PDF, qual afirmativa é correta sobre: Segundo o PDF, quais limitações já foram consideradas pelo STF como cláusulas pétreas (exemplos)?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel).",
+        "Que a regra se aplica apenas a benefícios fiscais, não a tributos.",
+        "Que o STF consolidou o contrário em súmula vinculante específica.",
+        "Que o entendimento é o oposto: dispensa lei e permite ato infralegal em regra."
       ],
       "correta": 0,
-      "explicacao": "Explicação curta."
+      "explicacao": "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel)."
     },
     {
-      "pergunta": "Questão 98 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 13 nível dificil: Qual item reflete o entendimento citado (STF/EC) a respeito de: Segundo o PDF, quais limitações já foram consideradas pelo STF como cláusulas pétreas (exemplos)?",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que o entendimento é o oposto: dispensa lei e permite ato infralegal em regra.",
+        "Que o STF consolidou o contrário em súmula vinculante específica.",
+        "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel).",
+        "Que a regra se aplica apenas a benefícios fiscais, não a tributos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel)."
     },
     {
-      "pergunta": "Questão 99 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 14 nível dificil: Em uma questão de alto nível, assinale a opção correta sobre: Segundo o PDF, quais limitações já foram consideradas pelo STF como cláusulas pétreas (exemplos).",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que o entendimento é o oposto: dispensa lei e permite ato infralegal em regra.",
+        "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel).",
+        "Que o STF consolidou o contrário em súmula vinculante específica.",
+        "Que a regra se aplica apenas a benefícios fiscais, não a tributos."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 1,
+      "explicacao": "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel)."
     },
     {
-      "pergunta": "Questão 100 nível difícil: exemplo de pergunta?",
+      "pergunta": "Questão 15 nível dificil: De acordo com o material, marque a alternativa correta: Segundo o PDF, quais limitações já foram consideradas pelo STF como cláusulas pétreas (exemplos).",
       "opcoes": [
-        "Alternativa A",
-        "Alternativa B",
-        "Alternativa C",
-        "Alternativa D"
+        "Que o entendimento é o oposto: dispensa lei e permite ato infralegal em regra.",
+        "Que a regra se aplica apenas a benefícios fiscais, não a tributos.",
+        "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel).",
+        "Que o STF consolidou o contrário em súmula vinculante específica."
       ],
-      "correta": 0,
-      "explicacao": "Explicação curta."
+      "correta": 2,
+      "explicacao": "Anterioridade (art. 150, III, 'b'), anterioridade nonagesimal (art. 195, §6º) e imunidades do art. 150, VI (recíproca, templos, partidos/sindicatos/edu/assistência, livros/jornal/periódicos/papel)."
     }
   ]
 };
