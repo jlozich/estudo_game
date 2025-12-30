@@ -2,7 +2,7 @@
   const $app = document.getElementById('app');
 
   const state = {
-    fase: 'menu', // menu | jogo | resultado-final
+    fase: 'menu',
     modoJogo: '',
     pontuacao: 0,
     questaoAtual: 0,
@@ -56,7 +56,7 @@
 
   function proxima(){
     const list = window.QUESTOES[state.modoJogo];
-    
+
     if (state.questaoAtual < list.length - 1) {
       state.questaoAtual += 1;
       state.respostaSelecionada = null;
@@ -64,9 +64,8 @@
     } else {
       state.fase = 'resultado-final';
     }
-    
-    // Força atualização do DOM na próxima tick (resolve travamento na mesma tela)
-    setTimeout(render, 0);
+
+    render();
   }
 
   function el(tag, attrs = {}, children = []) {
@@ -81,10 +80,10 @@
         n.setAttribute(k, v);
       }
     }
-    for (const c of children) {
+    children.forEach(c => {
       if (typeof c === 'string') n.appendChild(document.createTextNode(c));
       else if (c) n.appendChild(c);
-    }
+    });
     return n;
   }
 
@@ -163,18 +162,15 @@
         cls += ' optSel';
       }
 
-      const buttonAttrs = {
+      const attrs = {
         class: cls,
         type: 'button',
         onclick: () => selecionar(idx)
       };
 
-      // Desabilita apenas após mostrar o resultado
-      if (state.mostrarResultado) {
-        buttonAttrs.disabled = true;
-      }
+      if (state.mostrarResultado) attrs.disabled = true;
 
-      opts.appendChild(el('button', buttonAttrs, [
+      opts.appendChild(el('button', attrs, [
         el('span', {class:'optLetter'}, [String.fromCharCode(65+idx)+'.']),
         el('span', {class:'optText'}, [op])
       ]));
@@ -191,14 +187,23 @@
       ]));
     }
 
+    const btnText = state.mostrarResultado
+      ? (state.questaoAtual < list.length-1 ? 'Próxima Questão →' : 'Ver Resultado Final 🏆')
+      : 'Confirmar Resposta';
+
+    // 🔥 AQUI ESTÁ A CORREÇÃO 🔥
     const btn = el('button', {
       class: `mainBtn ${state.mostrarResultado ? 'mainBtnGreen' : ''}`,
       type: 'button',
-      disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? true : undefined
-    }, [state.mostrarResultado 
-        ? (state.questaoAtual < list.length-1 ? 'Próxima Questão →' : 'Ver Resultado Final 🏆') 
-        : 'Confirmar Resposta'
-    ]);
+      disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? true : undefined,
+      onclick: () => {
+        if (state.mostrarResultado) {
+          proxima();
+        } else {
+          confirmar();
+        }
+      }
+    }, [btnText]);
 
     wrap.appendChild(el('div', {style:'margin-top:14px'}, [btn]));
 
@@ -217,50 +222,41 @@
       el('div', {style:`font-size:64px; font-weight:900; margin:10px 0; color:${aprovado ? '#16a34a' : '#f59e0b'}`}, [`${percentual}%`])
     ]);
 
-    const stats = el('div', {class:'statsGrid'}, [
-      el('div', {class:'stat'}, [el('div', {class:'statLabel'}, ['Pontuação']), el('div', {class:'statVal'}, [String(state.pontuacao)])]),
-      el('div', {class:'stat'}, [el('div', {class:'statLabel'}, ['Acertos']), el('div', {class:'statVal'}, [String(state.acertos)])]),
-      el('div', {class:'stat'}, [el('div', {class:'statLabel'}, ['Erros']), el('div', {class:'statVal'}, [String(state.erros)])]),
-    ]);
-    card.appendChild(stats);
-
-    card.appendChild(el('div', {style:'margin-top:14px'}, [
-      el('button', {class:'mainBtn', type: 'button'}, ['🎮 Jogar novamente'])
+    card.appendChild(el('div', {class:'statsGrid'}, [
+      el('div', {class:'stat'}, [
+        el('div', {class:'statLabel'}, ['Acertos']),
+        el('div', {class:'statVal'}, [String(state.acertos)])
+      ]),
+      el('div', {class:'stat'}, [
+        el('div', {class:'statLabel'}, ['Erros']),
+        el('div', {class:'statVal'}, [String(state.erros)])
+      ]),
+      el('div', {class:'stat'}, [
+        el('div', {class:'statLabel'}, ['Pontuação']),
+        el('div', {class:'statVal'}, [String(state.pontuacao)])
+      ])
     ]));
 
     wrap.appendChild(card);
+
+    wrap.appendChild(el('div', {style:'margin-top:16px'}, [
+      el('button', {class:'mainBtn', onclick:reset}, ['Voltar ao Menu'])
+    ]));
+
     return wrap;
   }
 
   function render(){
     $app.innerHTML = '';
-    if(state.fase === 'menu') $app.appendChild(renderMenu());
-    else if(state.fase === 'jogo') $app.appendChild(renderJogo());
-    else $app.appendChild(renderResultado());
+
+    if(state.fase === 'menu'){
+      $app.appendChild(renderMenu());
+    } else if(state.fase === 'jogo'){
+      $app.appendChild(renderJogo());
+    } else if(state.fase === 'resultado-final'){
+      $app.appendChild(renderResultado());
+    }
   }
 
-  // Delegação de eventos robusta
-  $app.addEventListener('click', (e) => {
-    const btn = e.target.closest('.mainBtn');
-    if (!btn) return;
-
-    if (btn.disabled) return;
-
-    e.preventDefault();
-    e.stopPropagation();
-
-    if (state.fase === 'jogo') {
-      if (state.mostrarResultado) {
-        proxima();
-      } else {
-        confirmar();
-      }
-    } 
-    else if (state.fase === 'resultado-final') {
-      reset();
-    }
-  }, { capture: true });
-
-  // Inicia o app
   render();
 })();
