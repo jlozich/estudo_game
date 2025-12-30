@@ -78,6 +78,7 @@
       } else if (v !== undefined && v !== null) {
         n.setAttribute(k, v);
       }
+      // Ignora explicitamente atributos undefined ou null para não criar disabled=""
     }
     for (const c of children) {
       if (typeof c === 'string') n.appendChild(document.createTextNode(c));
@@ -163,12 +164,13 @@
 
       const buttonAttrs = {
         class: cls,
+        type: 'button', // garante que é botão clicável
         onclick: () => selecionar(idx)
       };
 
-      // Desabilita SOMENTE após mostrar o resultado
+      // Controle rigoroso do disabled
       if (state.mostrarResultado) {
-        buttonAttrs.disabled = 'disabled';
+        buttonAttrs.disabled = true;
       }
 
       opts.appendChild(el('button', buttonAttrs, [
@@ -190,7 +192,8 @@
 
     const btn = el('button', {
       class: `mainBtn ${state.mostrarResultado ? 'mainBtnGreen' : ''}`,
-      disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? 'disabled' : undefined
+      type: 'button',
+      disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? true : undefined
     }, [state.mostrarResultado 
         ? (state.questaoAtual < list.length-1 ? 'Próxima Questão →' : 'Ver Resultado Final 🏆') 
         : 'Confirmar Resposta'
@@ -221,7 +224,7 @@
     card.appendChild(stats);
 
     card.appendChild(el('div', {style:'margin-top:14px'}, [
-      el('button', {class:'mainBtn'}, ['🎮 Jogar novamente'])
+      el('button', {class:'mainBtn', type: 'button'}, ['🎮 Jogar novamente'])
     ]));
 
     wrap.appendChild(card);
@@ -237,20 +240,22 @@
 
   // Delegação de eventos para todos os botões .mainBtn
   $app.addEventListener('click', (e) => {
-    if (!e.target.matches('.mainBtn')) return;
+    if (e.target.closest('.mainBtn')) {
+      const target = e.target.closest('.mainBtn');
 
-    if (state.fase === 'jogo') {
-      if (state.mostrarResultado) {
-        proxima();
-      } else {
-        confirmar();
+      if (state.fase === 'jogo') {
+        if (state.mostrarResultado) {
+          proxima();
+        } else {
+          confirmar();
+        }
+      } 
+      else if (state.fase === 'resultado-final') {
+        reset();
       }
-    } 
-    else if (state.fase === 'resultado-final') {
-      reset();
     }
   });
 
-  // Inicia o app
+  // Inicia o aplicativo
   render();
 })();
