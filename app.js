@@ -56,15 +56,17 @@
 
   function proxima(){
     const list = window.QUESTOES[state.modoJogo];
-    if(state.questaoAtual < list.length - 1){
+    
+    if (state.questaoAtual < list.length - 1) {
       state.questaoAtual += 1;
       state.respostaSelecionada = null;
       state.mostrarResultado = false;
-      render();
     } else {
       state.fase = 'resultado-final';
-      render();
     }
+    
+    // Força atualização do DOM na próxima tick (resolve travamento na mesma tela)
+    setTimeout(render, 0);
   }
 
   function el(tag, attrs = {}, children = []) {
@@ -78,7 +80,6 @@
       } else if (v !== undefined && v !== null) {
         n.setAttribute(k, v);
       }
-      // Ignora explicitamente atributos undefined ou null para não criar disabled=""
     }
     for (const c of children) {
       if (typeof c === 'string') n.appendChild(document.createTextNode(c));
@@ -164,11 +165,11 @@
 
       const buttonAttrs = {
         class: cls,
-        type: 'button', // garante que é botão clicável
+        type: 'button',
         onclick: () => selecionar(idx)
       };
 
-      // Controle rigoroso do disabled
+      // Desabilita apenas após mostrar o resultado
       if (state.mostrarResultado) {
         buttonAttrs.disabled = true;
       }
@@ -238,24 +239,28 @@
     else $app.appendChild(renderResultado());
   }
 
-  // Delegação de eventos para todos os botões .mainBtn
+  // Delegação de eventos robusta
   $app.addEventListener('click', (e) => {
-    if (e.target.closest('.mainBtn')) {
-      const target = e.target.closest('.mainBtn');
+    const btn = e.target.closest('.mainBtn');
+    if (!btn) return;
 
-      if (state.fase === 'jogo') {
-        if (state.mostrarResultado) {
-          proxima();
-        } else {
-          confirmar();
-        }
-      } 
-      else if (state.fase === 'resultado-final') {
-        reset();
+    if (btn.disabled) return;
+
+    e.preventDefault();
+    e.stopPropagation();
+
+    if (state.fase === 'jogo') {
+      if (state.mostrarResultado) {
+        proxima();
+      } else {
+        confirmar();
       }
+    } 
+    else if (state.fase === 'resultado-final') {
+      reset();
     }
-  });
+  }, { capture: true });
 
-  // Inicia o aplicativo
+  // Inicia o app
   render();
 })();
