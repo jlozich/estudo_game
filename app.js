@@ -67,17 +67,21 @@
     }
   }
 
-  function el(tag, attrs={}, children=[]){
+  function el(tag, attrs = {}, children = []) {
     const n = document.createElement(tag);
-    for(const [k,v] of Object.entries(attrs)){
-      if(k === 'class') n.className = v;
-      else if(k.startsWith('on') && typeof v === 'function') n.addEventListener(k.substring(2).toLowerCase(), v);
-      else if(k === 'html') n.innerHTML = v;
-      else n.setAttribute(k, v);
+    for (const [k, v] of Object.entries(attrs)) {
+      if (k === 'class') n.className = v;
+      else if (k.startsWith('on') && typeof v === 'function') {
+        n.addEventListener(k.substring(2).toLowerCase(), v);
+      } else if (k === 'html') {
+        n.innerHTML = v;
+      } else if (v !== undefined && v !== null) {
+        n.setAttribute(k, v);
+      }
     }
-    for(const c of children){
-      if(typeof c === 'string') n.appendChild(document.createTextNode(c));
-      else if(c) n.appendChild(c);
+    for (const c of children) {
+      if (typeof c === 'string') n.appendChild(document.createTextNode(c));
+      else if (c) n.appendChild(c);
     }
     return n;
   }
@@ -156,11 +160,18 @@
       } else if(state.respostaSelecionada === idx){
         cls += ' optSel';
       }
-      opts.appendChild(el('button', {
+
+      const buttonAttrs = {
         class: cls,
-        onclick: ()=>selecionar(idx),
-        disabled: state.mostrarResultado ? 'true' : null
-      }, [
+        onclick: () => selecionar(idx)
+      };
+
+      // Desabilita SOMENTE após mostrar o resultado
+      if (state.mostrarResultado) {
+        buttonAttrs.disabled = 'disabled';
+      }
+
+      opts.appendChild(el('button', buttonAttrs, [
         el('span', {class:'optLetter'}, [String.fromCharCode(65+idx)+'.']),
         el('span', {class:'optText'}, [op])
       ]));
@@ -177,10 +188,9 @@
       ]));
     }
 
-    // Botão principal sem onclick (usaremos delegação)
     const btn = el('button', {
       class: `mainBtn ${state.mostrarResultado ? 'mainBtnGreen' : ''}`,
-      disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? 'true' : null
+      disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? 'disabled' : undefined
     }, [state.mostrarResultado 
         ? (state.questaoAtual < list.length-1 ? 'Próxima Questão →' : 'Ver Resultado Final 🏆') 
         : 'Confirmar Resposta'
@@ -210,7 +220,6 @@
     ]);
     card.appendChild(stats);
 
-    // Botão "Jogar novamente" sem onclick (delegação)
     card.appendChild(el('div', {style:'margin-top:14px'}, [
       el('button', {class:'mainBtn'}, ['🎮 Jogar novamente'])
     ]));
@@ -226,9 +235,7 @@
     else $app.appendChild(renderResultado());
   }
 
-  // ╔══════════════════════════════════════════════════════════════╗
-  // ║                  DELEGACAO DE EVENTOS (SOLUÇÃO)              ║
-  // ╚══════════════════════════════════════════════════════════════╝
+  // Delegação de eventos para todos os botões .mainBtn
   $app.addEventListener('click', (e) => {
     if (!e.target.matches('.mainBtn')) return;
 
@@ -244,6 +251,6 @@
     }
   });
 
-  // Inicia o jogo
+  // Inicia o app
   render();
 })();
