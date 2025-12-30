@@ -13,14 +13,14 @@
   };
 
   function reset(){
-    state.fase='menu';
-    state.modoJogo='';
-    state.pontuacao=0;
-    state.questaoAtual=0;
-    state.respostaSelecionada=null;
-    state.mostrarResultado=false;
-    state.acertos=0;
-    state.erros=0;
+    state.fase = 'menu';
+    state.modoJogo = '';
+    state.pontuacao = 0;
+    state.questaoAtual = 0;
+    state.respostaSelecionada = null;
+    state.mostrarResultado = false;
+    state.acertos = 0;
+    state.erros = 0;
     render();
   }
 
@@ -177,11 +177,15 @@
       ]));
     }
 
+    // Botão principal sem onclick (usaremos delegação)
     const btn = el('button', {
       class: `mainBtn ${state.mostrarResultado ? 'mainBtnGreen' : ''}`,
-      onclick: state.mostrarResultado ? proxima : confirmar,
       disabled: (!state.mostrarResultado && state.respostaSelecionada === null) ? 'true' : null
-    }, [state.mostrarResultado ? (state.questaoAtual < list.length-1 ? 'Próxima Questão →' : 'Ver Resultado Final 🏆') : 'Confirmar Resposta']);
+    }, [state.mostrarResultado 
+        ? (state.questaoAtual < list.length-1 ? 'Próxima Questão →' : 'Ver Resultado Final 🏆') 
+        : 'Confirmar Resposta'
+    ]);
+
     wrap.appendChild(el('div', {style:'margin-top:14px'}, [btn]));
 
     return wrap;
@@ -206,8 +210,9 @@
     ]);
     card.appendChild(stats);
 
+    // Botão "Jogar novamente" sem onclick (delegação)
     card.appendChild(el('div', {style:'margin-top:14px'}, [
-      el('button', {class:'mainBtn', onclick: reset}, ['🎮 Jogar novamente'])
+      el('button', {class:'mainBtn'}, ['🎮 Jogar novamente'])
     ]));
 
     wrap.appendChild(card);
@@ -221,5 +226,24 @@
     else $app.appendChild(renderResultado());
   }
 
+  // ╔══════════════════════════════════════════════════════════════╗
+  // ║                  DELEGACAO DE EVENTOS (SOLUÇÃO)              ║
+  // ╚══════════════════════════════════════════════════════════════╝
+  $app.addEventListener('click', (e) => {
+    if (!e.target.matches('.mainBtn')) return;
+
+    if (state.fase === 'jogo') {
+      if (state.mostrarResultado) {
+        proxima();
+      } else {
+        confirmar();
+      }
+    } 
+    else if (state.fase === 'resultado-final') {
+      reset();
+    }
+  });
+
+  // Inicia o jogo
   render();
 })();
